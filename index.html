@@ -13,33 +13,36 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="assets/css.css">
+    <link rel="stylesheet" href="./assets/css.css">
     <title>Menu</title>
 </head>
 
 <body>
     <!-- CONTAINER -->
-    <div class="container-fluid p-4 container-full">
-        <div class="sidebar-menu">
+    <div class="container-fluid  p-0 container-full">
+        <div class="sidebar-menu shadow-sm px-4">
             <div class="row-1">
                 <div class="logo">
-                    <a href="#"><i class="bx bx-chip"></i>ConnectPort</a>
+                    <a href="#"><i class="bx bx-chip"></i><span>ConnectPort</span></a>
                 </div>
-                <ul class="sidebar-menu-list">
-                    <li class="sidebar-menu-item"><a class="sidebar-menu-link" href="#">Produtos</a></li>
-                    <li class="sidebar-menu-item"><a class="sidebar-menu-link" href="#">Soluções</a></li>
-                    <li class="sidebar-menu-item"><a class="sidebar-menu-link" href="#">Trabalhos</a></li>
-                    <li class="sidebar-menu-item"><a class="sidebar-menu-link" href="#">Cursos</a></li>
-                    <li class="sidebar-menu-item"><a class="sidebar-menu-link" href="#">Sobre</a></li>
-                </ul>
+                <nav class="menu-list p-1">
+
+                    <span class="sidebar-menu-item"><a class="sidebar-menu-link" href="#">Produtos</a></span>
+                    <span class="sidebar-menu-item"><a class="sidebar-menu-link" href="#">Soluções</a></span>
+                    <span class="sidebar-menu-item"><a class="sidebar-menu-link" href="#">Trabalhos</a></span>
+                    <span class="sidebar-menu-item"><a class="sidebar-menu-link" href="#">Cursos</a></span>
+                    <span class="sidebar-menu-item"><a class="sidebar-menu-link" href="#">Sobre</a></span>
+
+                </nav>
             </div>
 
             <div class=" row-2 signs">
-                <button class="btn">Sign in</button>
-                <button class="btn">Sign out</button>
-                <button class="btn">Entrar em contacto</button>
+                <button class="btn rounded-pill border-0">Sign in</button>
+                <button class="btn rounded-pill border-0">Sign out</button>
+                <button class="btn rounded-pill border-0">Entrar em contacto</button>
             </div>
         </div>
+
 
     </div>
 
@@ -49,7 +52,7 @@
         crossorigin="anonymous"></script>
 
     <!-- CUSTOM JS -->
-    <script src="assets/js.js"></script>
+    <script src="./assets/app.js"></script>
 </body>
 
 </html>
