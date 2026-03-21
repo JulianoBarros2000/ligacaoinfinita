@@ -16,7 +16,6 @@ ul {
     list-style: none;
 }
 
-
 :root {
     --primary-color: #007BFF;
     /* Azul vivo vibrante */
@@ -33,10 +32,8 @@ ul {
     --light-color: #ffffff;
     --light-gray-color: #fafafa;
     ---gray-color: #e0e0e0;
-
     --font-inter: 'Inter', sans-serif;
     --font-fira-code: 'Fira Code', monospace;
-
     --hover-transition: all 0.3s ease-in-out;
 }
 
@@ -176,9 +173,6 @@ body {
     color: var(--primary-color);
 }
 
-
-
-
 .btn-mais {
   position: relative;
   padding: .7rem 1.7rem;
@@ -226,7 +220,58 @@ body {
   }
 }
 
+.img-flow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0em;
+}
+.img-flow img{
+height: auto;
+}
+
 /* MAIN STYLE */
+
+
+/* SOCIAL MEDIA STYLE */
+
+.social-title{
+    background-color: var(--light-color);
+    width: 100vw;
+}
+.social-media{
+    background-color: var(--light-color);
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+}
+.social-media .card {
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 15rem;
+    opacity: 0.8;
+}
+
+.social-media .card img {
+    width: 50%;
+    height: auto;
+    border-radius: .5em;
+}
+
+.social-media .card:hover {
+    background-color: var(--dark-text-color);
+    transform: translateY(-10px) scale(1.05);
+    transition: var(--hover-transition);
+    opacity: 1;
+}
+/* SOCIAL MEDIA STYLE */
 
 
 
