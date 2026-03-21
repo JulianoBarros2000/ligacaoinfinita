@@ -152,5 +152,82 @@ body {
     background-color: var(--primary-color);
 }
 
+
+
 /* SIDEBAR MENU */
+
+/* MAIN STYLE */
+.main-full{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    
+}
+.main-full .text-flow {
+   padding-left: 6rem;
+    background-color: transparent;
+    font-family: var(--font-inter);
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+    color: var(--text-color);
+}
+.main-full .text-flow .nome {
+    color: var(--primary-color);
+}
+
+
+
+
+.btn-mais {
+  position: relative;
+  padding: .7rem 1.7rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.matrix {
+  background: transparent;
+  border: 1px solid var(--light-secondary-color);
+  color: var(--dark-primary-color);
+  border-radius: .5em;
+}
+
+.code-rain {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(146, 239, 255, 0) 0%,
+    rgb(20, 184, 248) 50%,
+    rgba(174, 224, 253, 0) 100%
+  );
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.matrix:hover .code-rain {
+  opacity: 1;
+  animation: rain 1s linear infinite;
+}
+
+@keyframes rain {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+/* MAIN STYLE */
+
+
+
 /* CUSTOM CSS */
