@@ -86,9 +86,9 @@ body {
     color: var(--text-color);
 }
 
-.sidebar-menu .logo a img{
-  width: 6em;
-  height: 6em;
+.sidebar-menu .logo a img {
+    width: 6em;
+    height: 6em;
 }
 
 .sidebar-menu .menu-list {
@@ -154,80 +154,82 @@ body {
 /* SIDEBAR MENU */
 
 /* MAIN STYLE */
-.main-full{
+.main-full {
     background-color: transparent;
     backdrop-filter: blur(10px);
-    
+
 }
+
 .main-full .text-flow {
-   padding-left: 6rem;
+    padding-left: 6rem;
     background-color: transparent;
     font-family: var(--font-inter);
-   display: flex;
-   flex-direction: column;
-   align-items: start;
-   justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
     color: var(--text-color);
 }
+
 .main-full .text-flow .nome {
     color: var(--primary-color);
 }
 
 .btn-mais {
-  position: relative;
-  padding: .7rem 1.7rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #fff;
-  background: none;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  transition: all 0.4s ease;
+    position: relative;
+    padding: .7rem 1.7rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.4s ease;
 }
 
 .matrix {
-  background: transparent;
-  border: 1px solid var(--light-secondary-color);
-  color: var(--dark-primary-color);
-  border-radius: .5em;
+    background: transparent;
+    border: 1px solid var(--light-secondary-color);
+    color: var(--dark-primary-color);
+    border-radius: .5em;
 }
 
 .code-rain {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(146, 239, 255, 0) 0%,
-    rgb(20, 184, 248) 50%,
-    rgba(174, 224, 253, 0) 100%
-  );
-  opacity: 0;
-  transition: 0.3s;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg,
+            rgba(146, 239, 255, 0) 0%,
+            rgb(20, 184, 248) 50%,
+            rgba(174, 224, 253, 0) 100%);
+    opacity: 0;
+    transition: 0.3s;
 }
 
 .matrix:hover .code-rain {
-  opacity: 1;
-  animation: rain 1s linear infinite;
+    opacity: 1;
+    animation: rain 1s linear infinite;
 }
 
 @keyframes rain {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(100%);
-  }
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
 }
 
-.img-flow{
+.img-flow {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0em;
 }
-.img-flow img{
-height: auto;
+
+.img-flow img {
+    height: auto;
 }
 
 /* MAIN STYLE */
@@ -235,28 +237,35 @@ height: auto;
 
 /* SOCIAL MEDIA STYLE */
 
-.social-title{
-    background-color: var(--light-color);
+.social-title {
     width: 100vw;
 }
-.social-media{
-    background-color: var(--light-color);
+
+.social-media {
+    background-color: #070c1d;
     width: 100vw;
     height: auto;
     display: flex;
     flex-direction: column;
-        align-items: center;
-        justify-content: center; 
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
 }
+
 .social-media .card {
     padding: 5em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 15rem;
-    height: 15rem;
-    opacity: 0.8;
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.social-media .card:nth-child(2) {
+    background-color: transparent;
+
 }
 
 .social-media .card img {
@@ -266,13 +275,57 @@ height: auto;
 }
 
 .social-media .card:hover {
-    background-color: var(--dark-text-color);
     transform: translateY(-10px) scale(1.05);
     transition: var(--hover-transition);
-    opacity: 1;
+
 }
+
 /* SOCIAL MEDIA STYLE */
 
+/* CARACTEIRSITICAS DO PROJETO */
+.caract-main {
+    background-color: var(--light-color);
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
 
+.cards-caract-main .sqr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light-color);
+    font-family: var(--font-inter);
+  width: 100%;
+  height: 100%;
+    
+   
+}
+
+.cards-caract-main .sqr-1 {
+    background-color: #29b7dd;
+
+}
+
+.cards-caract-main .sqr-2 {
+    background-color: #8b72ee;
+
+}
+
+.cards-caract-main .sqr-3 {
+    background-color: #5d3be7;
+
+}
+
+.cards-caract-main .sqr-4 {
+    background-color: #bd72ef;
+
+}
+
+/* CARACTEIRSITICAS DO PROJETO */
 
 /* CUSTOM CSS */
