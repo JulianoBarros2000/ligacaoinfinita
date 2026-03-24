@@ -343,14 +343,17 @@ body {
     padding: 2em;
     
 }
+.habilidades .row .col{
+    margin-bottom: 1.5em;
+}
 .habilidades .langs i{
-    font-size: 5em;
+    font-size: 3em;
 }
 .habilidades .langs span{
     font-size: 1.2rem;
     color: var(--light-color);
-    font-weight: 600;
     margin-top: .5em;
+    font-family: var(--font-fira-code);
 }
 .html i{
     color: #E44D26;
@@ -364,6 +367,38 @@ body {
 .bootstrap i{
     color: #563d7c;
 }
+.nodejs i{
+    color: #68A063;
+}
+.expressjs i{
+    color: #000;
+}
+.mysql i{
+    color: #00758F;
+}
+.git i{
+    color: #F1502F;
+}
+.github i{
+    color: #333;
+}
 /* HABILIDADES STYLES */
+.solucoes{
+    background-color: var(--light-color);
+}
+.solucoes .textarea h1{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.solucoes .textarea a{
+    background-color: var(--light-primary-color);
+    font-weight: 700;
+    color: var(--light-color);
+    transition: var(--hover-transition);
+}
+.solucoes .textarea a:hover{
+    background-color: var(--primary-color);
+}
+/* SOLUTIONS STYLES*/
 
 /* CUSTOM CSS */
