@@ -1,15 +1,15 @@
 
-# MEU PORTIFÓLIO
+# Site Official
 
-👨‍💻 Juliano Barros - Portfólio
+👨‍💻 Juliano Barros -
 
 🚧 Em desenvolvimento 🚧
 
-Este é o meu portfólio pessoal, denominado "ligação infinita" onde apresento os meus projetos, habilidades e experiências como desenvolvedor web.
+Este é o site official da empresa ligação infinita, denominado "ligação infinita" onde apresenta os meus projetos, habilidades, cursos de desevolvimento em programação em várias linguagens de programação e design.
 
-🚀 Sobre mim
+🚀 Sobre 
 
-Sou desenvolvedor web com experiência em:
+Tecnologias usadas
 
 HTML, CSS e JavaScript
 
@@ -78,6 +78,6 @@ npm start
 
 ## 📌 Estado do Projeto
 
-🚧 Este projeto ainda está em desenvolvimento. Novas funcionalidades serão adicionadas em breve.
+🚧 Este projeto encontra-se ainda em desenvolvimento. Novas funcionalidades serão adicionadas em breve.
 
 
